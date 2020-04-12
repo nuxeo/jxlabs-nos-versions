@@ -12,6 +12,12 @@ repositories:
   - prefix: jx-labs
     urls:
       - https://storage.googleapis.com/jenkinsxio-labs-private/charts
+  - prefix: jxlabs-nos
+    urls:
+      - gs://jxlabs-nos-charts/
+  - prefix: jenkins
+    urls:
+      - https://raw.githubusercontent.com/jenkinsci/kubernetes-operator/master/chart
   - prefix: stable
     urls:
       - https://kubernetes-charts.storage.googleapis.com

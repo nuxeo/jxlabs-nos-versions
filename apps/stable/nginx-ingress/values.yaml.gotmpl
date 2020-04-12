@@ -4,6 +4,9 @@ controller:
     publish-service: nginx/nginx-ingress-controller
   service:
     omitClusterIP: true
+  publishService:
+    enabled: true
+    pathOverride: nginx-ingress-controller
   {{- if eq .Values.jxRequirements.cluster.provider "kind" }}
     type: NodePort
   {{- else if hasKey .Values.jxRequirements.ingress "serviceType" }}  
