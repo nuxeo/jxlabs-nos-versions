@@ -9,6 +9,15 @@ repositories:
     urls:
       - https://storage.googleapis.com/chartmuseum.jenkins-x.io
       - http://chartmuseum.jenkins-x.io
+  - prefix: jx-labs
+    urls:
+      - https://storage.googleapis.com/jenkinsxio-labs/charts
+  - prefix: jxlabs-nos
+    urls:
+      - gs://jxlabs-nos-charts/
+  - prefix: jenkins
+    urls:
+      - https://raw.githubusercontent.com/jenkinsci/kubernetes-operator/master/chart
   - prefix: stable
     urls:
       - https://kubernetes-charts.storage.googleapis.com
@@ -18,3 +27,6 @@ repositories:
   - prefix: gloo
     urls:
       - https://storage.googleapis.com/solo-public-helm
+  - prefix: external-secrets
+    urls:
+      - https://godaddy.github.io/kubernetes-external-secrets
