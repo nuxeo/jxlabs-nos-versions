@@ -9,7 +9,8 @@ auth:
 {{- if hasKey .Values.secrets "docker" }}
   docker:
     username: "{{ .Values.secrets.docker.username }}"
-    password: "{{ .Values.secrets.docker.password }}"
+    password: |
+{{ .Values.secrets.docker.password | indent 6 }}
     url: "{{ .Values.secrets.docker.url }}"
 {{- end }}
 
