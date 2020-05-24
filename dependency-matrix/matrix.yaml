@@ -467,3 +467,9 @@ dependencies:
   url: https://github.com/jenkins-x-labs/jxl
   version: 0.0.99
   versionURL: https://github.com/jenkins-x-labs/jxl/releases/tag/v0.0.99
+- host: github.com
+  owner: nuxeo
+  repo: jxlabs-nos-jxl
+  url: https://github.com/nuxeo/jxlabs-nos-jxl
+  version: 0.0.201-jxlabs-nos
+  versionURL: https://github.com/nuxeo/jxlabs-nos-jxl/releases/tag/v0.0.201-jxlabs-nos
