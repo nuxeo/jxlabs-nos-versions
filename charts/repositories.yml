@@ -15,7 +15,7 @@ repositories:
   - prefix: jxlabs-nos
     urls:
       - gs://jxlabs-nos-charts/
-  - prefix: jenkins
+  - prefix: jenkins-operator
     urls:
       - https://raw.githubusercontent.com/jenkinsci/kubernetes-operator/master/chart
   - prefix: stable
