@@ -30,3 +30,6 @@ repositories:
   - prefix: external-secrets
     urls:
       - https://godaddy.github.io/kubernetes-external-secrets
+  - prefix: vmware-tanzu
+    urls:
+      - https://vmware-tanzu.github.io/helm-charts
