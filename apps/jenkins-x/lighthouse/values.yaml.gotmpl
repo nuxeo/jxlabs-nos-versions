@@ -7,13 +7,15 @@ git:
   name: {{ .Values.jxRequirements.cluster.gitName | default "github" }}
   server: {{ .Values.jxRequirements.cluster.gitServer | default "https://github.com" }}
 
-service:
-  name: hook
-  
-replicaCount: 2
+webhooks:
+  replicaCount: 2
+  service:
+    name: hook
 
 image:
+  # Deprecated in favor of image.parentRepository but retained for backwards compatibility with old value.
   repository: gcr.io/jenkinsxio/lighthouse
+  parentRepository: gcr.io/jenkinsxio
 
 vault:
 {{- if eq .Values.jxRequirements.secretStorage "vault" }}
@@ -26,4 +28,19 @@ clusterName: "{{ .Values.jxRequirements.cluster.clusterName }}"
 
 user: "{{ .Values.secrets.pipelineUser.username }}"
 
-oauthToken: "{{ .Values.secrets.pipelineUser.token }}"
+.oauthToken: "{{ .Values.secrets.pipelineUser.token }}"
+
+{{- if hasKey .Values.jxRequirements.cluster "strictPermissions" }}
+{{- if and (eq .Values.jxRequirements.cluster.provider "openshift") (.Values.jxRequirements.cluster.strictPermissions) }}
+cluster:
+  crds:
+    create: false
+{{- end }}
+{{- end }}
+
+# Disable the legacy jx controller in favor of lighthouse-jx's.
+engines:
+  jx: false
+
+env:
+  JX_DEFAULT_IMAGE: "gcr.io/jenkinsxio/builder-maven"
