@@ -69,4 +69,5 @@ Dependency | Sources | Version | Mismatched versions
 [helm/falco](https://github.com/helm/charts/tree/master/stable/falco):falco |  | [1.1.8]() | 
 [heptio/velero](https://github.com/heptio/velero):velero |  | [2.7.4]() | 
 [jenkins-x/lighthouse-jx-controller](https://github.com/jenkins-x/lighthouse-jx-controller) |  | [0.0.121]() | 
-[nuxeo/jxlabs-nos-helmboot-resources](https://github.com/nuxeo/jxlabs-nos-helmboot-resources) |  | [1.0.1-8-3b643d1a-master]() | 
+[nuxeo/jxlabs-nos-helmboot-resources](https://github.com/nuxeo/jxlabs-nos-helmboot-resources) |  | [1.0.1-8-a08f032a-master]() | 
+[nuxeo/jxlabs-nos-jxl](https://github.com/nuxeo/jxlabs-nos-jxl) |  | [0.0.181-14-f8cdac60-master]() | 

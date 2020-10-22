@@ -499,3 +499,9 @@ dependencies:
   url: https://github.com/nuxeo/jxlabs-nos-jxl
   version: 0.0.181-14-f8cdac60-master
   versionURL: ""
+- host: github.com
+  owner: nuxeo
+  repo: jxlabs-nos-jxl
+  url: https://github.com/nuxeo/jxlabs-nos-jxl
+  version: 0.0.181-14-f8cdac60-master
+  versionURL: ""
