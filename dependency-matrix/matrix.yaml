@@ -487,3 +487,9 @@ dependencies:
   url: https://github.com/jenkins-x/lighthouse-jx-controller
   version: 0.0.121
   versionURL: ""
+- host: github.com
+  owner: nuxeo
+  repo: jxlabs-nos-helmboot-resources
+  url: https://github.com/nuxeo/jxlabs-nos-helmboot-resources
+  version: 1.0.1-8-a08f032a-master
+  versionURL: ""
