@@ -497,17 +497,17 @@ dependencies:
   owner: nuxeo
   repo: jxlabs-nos-jxl
   url: https://github.com/nuxeo/jxlabs-nos-jxl
-  version: 0.0.181-15-aeb52400-master
-  versionURL: https://github.com/nuxeo/jxlabs-nos-jxl/releases/tag/v0.0.181-15-aeb52400-master
+  version: 0.0.181-15-5188496a-master
+  versionURL: https://github.com/nuxeo/jxlabs-nos-jxl/releases/tag/v0.0.181-15-5188496a-master
 - host: github.com
   owner: nuxeo
   repo: jxlabs-nos-jxl
   url: https://github.com/nuxeo/jxlabs-nos-jxl
-  version: 0.0.181-15-aeb52400-master
-  versionURL: https://github.com/nuxeo/jxlabs-nos-jxl/releases/tag/v0.0.181-15-aeb52400-master
+  version: 0.0.181-15-5188496a-master
+  versionURL: https://github.com/nuxeo/jxlabs-nos-jxl/releases/tag/v0.0.181-15-5188496a-master
 - host: github.com
   owner: nuxeo
   repo: jxlabs-nos-jxl
   url: https://github.com/nuxeo/jxlabs-nos-jxl
-  version: 0.0.181-15-aeb52400-master
-  versionURL: https://github.com/nuxeo/jxlabs-nos-jxl/releases/tag/v0.0.181-15-aeb52400-master
+  version: 0.0.181-15-5188496a-master
+  versionURL: https://github.com/nuxeo/jxlabs-nos-jxl/releases/tag/v0.0.181-15-5188496a-master
