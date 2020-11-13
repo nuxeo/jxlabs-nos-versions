@@ -20,7 +20,7 @@ repositories:
       - https://raw.githubusercontent.com/jenkinsci/kubernetes-operator/master/chart
   - prefix: stable
     urls:
-      - https://kubernetes-charts.storage.googleapis.com
+      - https://charts.helm.sh/stable
   - prefix: flagger
     urls:
       - https://flagger.app
