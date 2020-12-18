@@ -491,7 +491,7 @@ dependencies:
   owner: nuxeo
   repo: jxlabs-nos-helmboot-resources
   url: https://github.com/nuxeo/jxlabs-nos-helmboot-resources
-  version: 1.0.1-9-cf8b7eb6-master
+  version: 1.0.1-9-ff2dccac-master
   versionURL: ""
 - host: github.com
   owner: nuxeo
